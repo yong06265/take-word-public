@@ -1,0 +1,22 @@
+# Local Android build output
+.gradle/
+.idea/
+build/
+app/build/
+
+# Local signing files
+*.jks
+*.keystore
+keystore.properties
+local.properties
+
+# Release binaries should be uploaded through GitHub Releases.
+releases/*.apk
+releases/*.aab
+releases/*.apks
+
+# Local logs and temporary files
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
